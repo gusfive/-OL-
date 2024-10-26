@@ -4,6 +4,7 @@ import pyautogui
 import pygetwindow as gw
 import time
 import os
+from auto_yaoling import ytly
 
 def getwin():
     # 获取所有窗口的标题
@@ -710,13 +711,13 @@ def yaoshou(image_path):
     find_and_click_until_stop("ks_exit.png", "kaishijiemian.png", timeout=5)
     find_and_click_until_stop("startgame.png", "ks_exit.png", timeout=5)
 
-yitiao("bajie.png")
-yitiao("shaseng.png")
-yitiao("liuli.png")
-yitiao("tangseng.png")
-yitiao("wangzi.png")
-yitiao("houzi.png")
-yitiao("change.png")
+# yitiao("bajie.png")
+# yitiao("shaseng.png")
+# yitiao("liuli.png")
+# yitiao("tangseng.png")
+# yitiao("wangzi.png")
+# yitiao("houzi.png")
+# yitiao("change.png")
 
 # yaoshou("nezhai.png")
 # yaoshou("bajie.png")
@@ -727,5 +728,12 @@ yitiao("change.png")
 # yaoshou("houzi.png")
 # yaoshou("change.png")
 
-
+ytly("bajie.png")
+ytly("shaseng.png")
+ytly("liuli.png")
+ytly("tangseng.png")
+ytly("wangzi.png")
+ytly("houzi.png")
+ytly("change.png")
+# ytly("nezhai.png")
 
