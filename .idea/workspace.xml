@@ -5,85 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ef3994f-d102-46ae-b2db-19d4084a071d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/-OL-/1200.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/action.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/back-enter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/backHZ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/byzj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/chenghao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/ckyl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/confirmRelive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/count+.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/djkbqygb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/door-change.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/door-confirm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/door-exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/door-kssz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/door-pl-jl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/door-pl-jss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/door-pl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/door-qrpq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/door-zhpq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/floor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/free.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/freeConfirm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/fsll.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/guangan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/hlc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/hunzha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/jtjxone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/jxsj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/kl-exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/kls-exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/kls-yxd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/kssq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/kssz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/make.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/map-exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/oneLevelCreation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/plfs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/pqsz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/qrfs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/qrpq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/relives.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/shgfone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/sz-exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/sz-kspq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/sz-kssz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/sz-qrpq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/sz-zhpq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yl-backhome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yl-by.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yl-cd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yl-cj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yl-ck.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yl-close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yl-collect.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yl-enter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yl-exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yl-fd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yl-fs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yl-lq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yl-qg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yl-qx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yl-sc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yl-sg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yl-sh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yl-zl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/ylSelectAll.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yl_chooseup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yllt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yllt_exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/ytly.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/ytxs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/zhpq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/zwt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/alldamage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/backmap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/catchsize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/kls-task.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/nonotice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/rewards.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/together.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/window_screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/yl-yes.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/-OL-/auto_yaoling.py" beforeDir="false" afterPath="$PROJECT_DIR$/-OL-/auto_yaoling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-OL-/huoqubiaoti.py" beforeDir="false" afterPath="$PROJECT_DIR$/-OL-/daily&amp;&amp;yaoshou.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/daily&amp;&amp;yaoshou.py" beforeDir="false" afterPath="$PROJECT_DIR$/-OL-/daily&amp;&amp;yaoshou.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/-OL-/recoed_xy.py" beforeDir="false" afterPath="$PROJECT_DIR$/-OL-/recoed_xy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/-OL-/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zmxy-py.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zmxy-py.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,13 +55,15 @@
     &quot;Python.auto_yaoling.executor&quot;: &quot;Run&quot;,
     &quot;Python.daily&amp;&amp;yaoshou.executor&quot;: &quot;Run&quot;,
     &quot;Python.recoed_xy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/code/zmxy-py&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gusha/Desktop/code/-OL-&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.daily&amp;&amp;yaoshou">
+  <component name="RunManager" selected="Python.auto_yaoling">
     <configuration name="auto_yaoling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="zmxy-py" />
       <option name="ENV_FILES" value="" />
@@ -190,18 +130,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zmxy-py" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/-OL-" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/-OL-/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.auto_yaoling" />
         <item itemvalue="Python.daily&amp;&amp;yaoshou" />
         <item itemvalue="Python.recoed_xy" />
-        <item itemvalue="Python.auto_yaoling" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
       </set>
     </attachedChunks>
   </component>

@@ -22,7 +22,7 @@ def get_click_position(window_title="MuMuPlayer"):
             # 计算点击位置相对于窗口的坐标
             relative_x = x - window.left
             relative_y = y - window.top
-            print(f"点击位置在窗口内的坐标: ({relative_x-200}, {relative_y-20})")
+            print(f"点击位置在窗口内的坐标: ({relative_x-300}, {relative_y-20})")
             print(f"点击位置绝对坐标: ({x}, {y})")
             print(f"窗口坐标: ({window.left}, {window.top})")
             return False  # 停止监听
@@ -34,4 +34,4 @@ def get_click_position(window_title="MuMuPlayer"):
 # 示例调用
 get_click_position()
 
-(688, 133)
+
