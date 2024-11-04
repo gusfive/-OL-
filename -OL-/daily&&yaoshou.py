@@ -4,7 +4,7 @@ import pyautogui
 import pygetwindow as gw
 import time
 import os
-from auto_yaoling import ytly
+from auto_yaoling import ytlyhard
 from auto_yaoling import drag_inxy
 from auto_yaoling import find_xy
 from pynput.keyboard import Key, Controller
@@ -18,6 +18,27 @@ def getwin():
     for title in titles:
         print(title)
 
+def drag_inxy(x, y, x1, y1, duration, window_title="MuMuPlayer"):
+    # 获取指定窗口
+    windows = gw.getWindowsWithTitle(window_title)
+    if not windows:
+        print(f"未找到窗口: {window_title}")
+        return
+
+    window = windows[0]
+
+    # 激活窗口
+    window.activate()
+    time.sleep(0.1)  # 增加等待时间确保窗口激活
+
+    # 将相对于窗口的坐标转换为屏幕的绝对坐标
+    screen_x = window.left + x
+    screen_y = window.top + y
+
+    # 在屏幕的绝对坐标位置拖动
+    pyautogui.moveTo(screen_x, screen_y)
+    pyautogui.dragRel(x1, y1, duration)
+    print(f"已在窗口 {window_title} 内的坐标 ({x}, {y}) 处点击")
 
 def scroll_inxy(x,y,amount=1,delay=0.1,window_title="MuMuPlayer"):
     # 获取指定窗口
@@ -510,6 +531,25 @@ def start_to_street():
     click_button_in_window('gongao.png', timeout=12, click_delay=0.5)
     click_button_in_window('huodong.png', timeout=5, click_delay=1)
 
+def jtKls():
+    find_and_click_until_stop("ytly.png", "shijieditu.png")
+    find_and_click_until_stop("zwt.png", "ytly.png")
+    click_button_in_window("yl-backhome.png",timeout=3)
+    drag_inxy(525, 252, -411, 114, 0.8)
+    click_button_in_window("jtjxone.png")
+    time.sleep(0.5)
+    click_inxy(523, 197)
+    find_and_click_until_stop("freeConfirm.png", "door-zhpq.png", click_delay=0.5, timeout=5)
+    click_button_in_window("freeConfirm.png")
+    click_button_in_window("door-kssz.png")
+    find_and_click_until_stop("yl-yes.png", "together.png", click_delay=0.5, timeout=10)
+    click_button_in_window("yl-yes.png", click_delay=0.5, timeout=10)
+    click_button_in_window("door-qrpq.png", click_delay=1)
+    click_button_in_window("door-exit.png")
+    find_and_click_until_stop("zwt.png", "yl-backhome.png")
+    click_button_in_window("yl-close.png")
+    click_button_in_window("map-exit.png",click_delay=1.5)
+
 def chushihuaweizhi():
     time.sleep(1)
     click_button_in_window('shijieditu.png', timeout=2, click_delay=0.2)
@@ -715,6 +755,15 @@ def kunlun():
     click_button_in_window('lm_exit.png', timeout=6, click_delay=1)
     find_and_click_until_stop("youjian.png","huijia.png")
 
+def klDianQuan():
+    find_and_click_until_stop("ytly.png", "shijieditu.png")
+    find_and_click_until_stop("zwt.png", "ytly.png")
+    click_button_in_window("yl-backhome.png", timeout=3)
+    find_and_click_until_stop("djkbqygb.png", "kssq.png")
+    click_button_in_window("djkbqygb.png")
+    click_button_in_window("yl-close.png")
+    click_button_in_window("map-exit.png",click_delay=1.5)
+
 def huoyue():
     find_and_click_until_stop("jdianrenwu.png","renwu.png",timeout=5)
     find_and_click_until_stop("xuanshangrenwu.png","jdianrenwu.png",timeout=5)
@@ -774,6 +823,7 @@ def huoyue():
     time.sleep(1)
     click_inxy(300, 250)
     find_and_click_until_stop("youjian.png","huijia.png")
+    klDianQuan()
     find_and_click_until_stop("lquyoujian.png","youjian.png")
     click_button_in_window('lquyoujian.png', timeout=2, click_delay=0.2)
     click_button_in_window('yj_exit.png', timeout=2, click_delay=0.2)
@@ -800,7 +850,7 @@ def huoyue():
     click_button_in_window('fbjj.png', timeout=2, click_delay=0.2)
     click_button_in_window('xz.png', timeout=2, click_delay=0.2)
     click_button_in_window('pljj.png', timeout=2, click_delay=0.2)
-    for i in range(10):
+    for i in range(6):
         click_button_in_window('quxiao.png', timeout=2, click_delay=0.2)
         click_button_in_window('select_all.png', timeout=2, click_delay=0.2)
         find_and_click_until_stop("yes.png","qdjj.png")
@@ -841,10 +891,17 @@ def richang():
     find_and_click_until_stop("ks_exit.png","kaishijiemian.png",timeout=5)
     find_and_click_until_stop("startgame.png","ks_exit.png",timeout=15)
 
+def reStart():
+    click_inxy(x=334, y=-24)
+    find_and_click_until_stop("startgame.png","zmxyOL.png",click_delay=3)
+    time.sleep(5)
+    drag_inxy(480,3,0,489,1)
+
 def yitiao(image_path):
     click_button_in_window('manchoosedown.png', timeout=5, click_delay=0.2)
     click_button_in_window(image_path, timeout=5, click_delay=0.2)
     start_to_street()
+    jtKls()
     chushihuaweizhi()
     street_to_xianmeng()
     lianmeng()
@@ -876,22 +933,42 @@ def yaoshou(image_path):
     find_and_click_until_stop("ks_exit.png", "kaishijiemian.png", timeout=5)
     find_and_click_until_stop("startgame.png", "ks_exit.png", timeout=5)
 
-yitiao("liuli.png")
+# time.sleep(10)
+
+# yaoshou("change.png")
+# yaoshou("tangseng.png")
+# yaoshou("bajie.png")
+# yaoshou("wangzi.png")
+# yaoshou("shaseng.png")
+# yaoshou("houzi.png")
+# yaoshou("liuli.png")
+# yaoshou("nezhai.png")
+
+yitiao("shaseng.png")
+yitiao("houzi.png")
 yitiao("wangzi.png")
 yitiao("bajie.png")
 yitiao("change.png")
-yitiao("shaseng.png")
-yitiao("houzi.png")
 yitiao("tangseng.png")
+yitiao("liuli.png")
+reStart()
+ytlyhard("shaseng.png")
+reStart()
+ytlyhard("houzi.png")
+reStart()
+ytlyhard("wangzi.png")
+reStart()
+ytlyhard("bajie.png")
+reStart()
+ytlyhard("change.png")
+reStart()
+ytlyhard("tangseng.png")
+reStart()
+ytlyhard("liuli.png")
+reStart()
+ytlyhard("nezhai.png")
+os.system("rundll32.exe powrprof.dll,SetSuspendState Sleep")
 
 
-# yaoshou("liuli.png")
-# yaoshou("tangseng.png")
-# yaoshou("houzi.png")
-# yaoshou("change.png")
-# yaoshou("nezhai.png")
-# yaoshou("bajie.png")
-# yaoshou("shaseng.png")
-# yaoshou("wangzi.png")
 
 

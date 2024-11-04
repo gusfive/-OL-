@@ -21,7 +21,7 @@ def clickon(x, y, duration, window_title="MuMuPlayer"):
 
     # 激活窗口
     window.activate()
-    time.sleep(1)  # 增加等待时间确保窗口激活
+    time.sleep(0.2)  # 增加等待时间确保窗口激活
 
     # 将相对于窗口的坐标转换为屏幕的绝对坐标
     screen_x = window.left + x
@@ -193,6 +193,60 @@ def find_and_click_until_stop(stop_image_path, click_image_path, window_title="M
     # 删除截图文件
     os.remove(screenshot_filename)
 
+def find_and_clickxy_until_stop(stop_image_path, x1,y1, window_title="MuMuPlayer", timeout=90, click_delay=0.5):
+    # 加载图像
+    stop_image = cv2.imread(stop_image_path, cv2.IMREAD_GRAYSCALE)
+    stop_height, stop_width = stop_image.shape[:2]
+
+    # 获取指定窗口
+    windows = gw.getWindowsWithTitle(window_title)
+    if not windows:
+        print(f"未找到窗口: {window_title}")
+        return
+
+    window = windows[0]
+
+    # 激活窗口
+    window.activate()
+    time.sleep(0.1)  # 增加等待时间确保窗口激活
+
+    # 获取窗口位置和大小
+    x, y, width, height = window.left, window.top, window.width, window.height
+
+    start_time = time.time()
+    while True:
+        # 截取窗口截图
+        screenshot = ImageGrab.grab(bbox=(x, y, x + width, y + height))
+        screenshot_filename = 'window_screenshot.png'
+        screenshot.save(screenshot_filename)
+
+        # 加载窗口截图
+        window_image = cv2.imread(screenshot_filename, cv2.IMREAD_GRAYSCALE)
+
+        # 使用模板匹配查找停止按钮位置
+        result_stop = cv2.matchTemplate(window_image, stop_image, cv2.TM_CCOEFF_NORMED)
+        min_val_stop, max_val_stop, min_loc_stop, max_loc_stop = cv2.minMaxLoc(result_stop)
+
+        # 设置匹配阈值
+        threshold = 0.85
+        if max_val_stop >= threshold:
+            print(f"找到停止按钮 {stop_image_path}，停止循环")
+            break
+
+        # 在窗口内点击按钮位置
+        time.sleep(0.1)
+        pyautogui.click(x1+x, y1+y)
+
+        time.sleep(click_delay)  # 每次循环后的延迟
+
+        # 检查是否超时
+        if time.time() - start_time >= timeout:
+            print(f"未找到 {stop_image_path}，超时退出")
+            break
+
+    # 删除截图文件
+    os.remove(screenshot_filename)
+
 def click_button_in_window(image_path, window_title="MuMuPlayer", timeout=5, click_delay=0.1):
     # 加载按钮图像
     button_image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
@@ -324,27 +378,26 @@ def catchYaoLing(type, findtime=3):
         find_and_click_until_stop("catchsize.png", "jxsj.png", timeout=20)
         time.sleep(1)
         clickon(185, 489, 2)
-        for i in range(10):
+        for i in range(14):
             click_inxy(843, 482)
         click_button_in_window("guangan.png", click_delay=0.3)
         clickon(86, 496, 1.5)
         moveAndCollect(185, 489, 886, 115, 5)
-        clickon(185, 489, 0.5)
-        for i in range(10):
+        clickon(185, 489, 1)
+        clickon(86, 496, 0.3)
+        for i in range(14):
             click_inxy(843, 482)
         click_button_in_window("guangan.png", click_delay=0.3)
         clickon(86, 496, 1.5)
         moveAndCollect(185, 489, 886, 115, 5)
-        clickon(185, 489, 3)
-        for i in range(10):
+        clickon(185, 489, 2.5)
+        for i in range(14):
             click_inxy(843, 482)
         click_button_in_window("guangan.png", click_delay=0.3)
         clickon(86, 496, 0.5)
         moveAndCollect(185, 489, 886, 115, 5)
         find_and_click_until_stop("xuanshangyes.png","yl-exit.png")
         click_button_in_window("xuanshangyes.png")
-    find_and_click_until_stop("xuanshangyes.png", "yl-exit.png")
-    find_and_click_until_stop("back-enter.png", "xuanshangyes.png")
     click_button_in_window("back-enter.png")
     find_and_click_until_stop("yl-enter.png","yl-exit.png",timeout=15)
     find_and_click_until_stop("hunzha.png", "yl-backhome.png",click_delay=1, timeout=15)
@@ -363,7 +416,7 @@ def firstRelease():
     clickon(86, 496, 1.5)
     moveAndCollect(185, 489, 886, 115, 5)
     find_and_click_until_stop("xuanshangyes.png", "yl-exit.png")
-    find_and_click_until_stop("back-enter.png", "xuanshangyes.png")
+    find_and_click_until_stop("back-enter.png", "xuanshangyes.png",timeout=10)
     click_button_in_window("back-enter.png")
     find_and_click_until_stop("yl-enter.png", "yl-exit.png", timeout=15)
     find_and_click_until_stop("hunzha.png", "yl-backhome.png", click_delay=1, timeout=15)
@@ -375,20 +428,18 @@ def firstRelease():
     click_button_in_window("freeConfirm.png", timeout=5)
     find_and_click_until_stop("zwt.png", "yl-backhome.png",click_delay=1.5,timeout=15)
 
-def selectLife():
+def selectLife(image="2000.png"):
     count = 0
-    health = cv2.imread("1200.png")
+    health = cv2.imread(image)
     free = cv2.imread("free.png", cv2.IMREAD_GRAYSCALE)
-    click_button_in_window("hunzha.png", click_delay=0.3)
+    click_button_in_window("hunzha.png", click_delay=1)
     for row in range(4):
         for line in range(8):
             x = line * 80 + 180
             y = row * 85 + 175
             while True:
                 time.sleep(0.2)
-                click_inxy(x, y)
-                time.sleep(0.2)
-                click_inxy(x, y)
+                find_and_clickxy_until_stop("free.png",x,y,click_delay=0.5,timeout=2)
                 # 获取指定窗口
                 windows = gw.getWindowsWithTitle("MuMuPlayer")
                 if not windows:
@@ -413,31 +464,71 @@ def selectLife():
                     return count
 
                 # 设置匹配阈值
-                threshold = 0.9
+                threshold = 0.93
                 if max_val_stop >= threshold:
                     count += 1
-                    print(f"1200,下一个")
-                    time.sleep(0.5)
+                    print(f"2200,下一个")
+                    time.sleep(0.2)
                     click_inxy(34, 217)
                     break
                 else:
-                    click_button_in_window("free.png", click_delay=0.2)
-                time.sleep(0.2)
-                click_inxy(x, y)
+                    time.sleep(0.2)
+                    click_button_in_window("free.png",)
+                    time.sleep(0.2)
+                    click_inxy(34, 217)
     print(f"筛选完成，1200以上总数：{count}")
     return count
 
-def fushen(type, num):
+def fushen(type, num,findtime):
     while True:
-        catchYaoLing(type)
+        catchYaoLing(type,findtime)
         time.sleep(0.2)
         selectLife()
-        click_button_in_window("yl-backhome.png",click_delay=1)
         time.sleep(0.2)
-        selectLife()
         click_button_in_window("yl-backhome.png",click_delay=1)
         time.sleep(0.2)
         count = selectLife()
+        time.sleep(0.2)
+        click_button_in_window("yl-backhome.png", click_delay=1)
+        time.sleep(0.2)
+        if count >= num:
+            click_button_in_window("hunzha.png", click_delay=0.3)
+            for i in range(count-num):
+                time.sleep(0.5)
+                click_inxy(180, 175)
+                click_button_in_window("free.png", click_delay=0.5)
+                click_inxy(180, 175)
+            find_and_click_until_stop("ylSelectAll.png", "relives.png",click_delay=0.5)
+            click_button_in_window("ylSelectAll.png")
+            find_and_click_until_stop("freeConfirm.png","confirmRelive.png")
+            click_button_in_window("freeConfirm.png")
+            click_button_in_window("backHZ.png")
+            find_and_click_until_stop("zwt.png","yl-backhome.png")
+            break
+
+def makesoul(num):
+    find_and_click_until_stop("oneLevelCreation.png", "zwt.png", click_delay=0.5)
+    find_and_click_until_stop("fsll.png", "oneLevelCreation.png", click_delay=0.5)
+    click_button_in_window("fsll.png", timeout=2)
+    for i in range(num - 1):
+        click_inxy(610, 367)
+        time.sleep(0.1)
+    click_inxy(531, 490)
+    time.sleep(1)
+    click_inxy(280, 490)
+    find_and_click_until_stop("zwt.png", "yl-backhome.png", timeout=20, click_delay=1)
+
+
+def fushenSimple(type, num):
+    while True:
+        catchYaoLing(type,findtime=1)
+        time.sleep(0.2)
+        selectLife(image="healthAny.png")
+        time.sleep(0.2)
+        click_button_in_window("yl-backhome.png",click_delay=1)
+        time.sleep(0.2)
+        count = selectLife(image="healthAny.png")
+        time.sleep(0.2)
         click_button_in_window("yl-backhome.png", click_delay=1)
         time.sleep(0.2)
         if count >= num:
@@ -475,7 +566,18 @@ def freeTao():
 
 def Tao():
     click_button_in_window("ytxs.png")
-    click_button_in_window("kssz.png")
+    time.sleep(1)
+    click_inxy(238, 477)
+    time.sleep(1)
+    click_inxy(188, 122)
+    click_button_in_window("shangzheng.png", click_delay=1, timeout=5)
+    click_button_in_window("szConfim.png", click_delay=1, timeout=5)
+    time.sleep(1)
+    click_inxy(509, 477)
+    time.sleep(1)
+    click_inxy(188, 122)
+    click_button_in_window("shangzheng.png", click_delay=1, timeout=5)
+    click_button_in_window("szConfim.png", click_delay=1, timeout=5)
     click_button_in_window("qrpq.png",click_delay=0.5)
     find_and_click_until_stop("zwt.png","yl-backhome.png")
 
@@ -493,7 +595,8 @@ def Yu():
 
 def freeshgfone():
     drag_inxy(67,406,75,20,0.3)
-    click_button_in_window("shgfone.png")
+    time.sleep(2)
+    click_button_in_window("shgfone.png",timeout=6,click_delay=1)
     find_and_click_until_stop("sz-exit.png","pqsz.png")
     find_and_click_until_stop("freeConfirm.png", "sz-zhpq.png", click_delay=0.5, timeout=5)
     click_button_in_window("freeConfirm.png")
@@ -504,7 +607,8 @@ def freeshgfone():
 
 def shgfone():
     drag_inxy(67, 406, 75, 20, 0.3)
-    click_button_in_window("shgfone.png")
+    time.sleep(2)
+    click_button_in_window("shgfone.png",timeout=6,click_delay=1)
     find_and_click_until_stop("sz-exit.png","pqsz.png")
     click_button_in_window("sz-kssz.png")
     click_button_in_window("sz-qrpq.png", click_delay=1)
@@ -513,7 +617,7 @@ def shgfone():
     click_button_in_window("yl-close.png")
     click_button_in_window("ytly.png",click_delay=1)
 
-def freejtjxoneFirst():
+def freejtjxone():
     drag_inxy(525,252,-411,114,0.8)
     click_button_in_window("jtjxone.png")
     time.sleep(0.5)
@@ -521,53 +625,12 @@ def freejtjxoneFirst():
     find_and_click_until_stop("freeConfirm.png", "door-zhpq.png", click_delay=0.5, timeout=5)
     click_button_in_window("freeConfirm.png")
     click_button_in_window("door-exit.png")
-    find_and_click_until_stop("zwt.png", "yl-backhome.png", click_delay=0.5)
-    click_button_in_window("yl-close.png")
-    click_button_in_window("ytly.png",click_delay=1)
-
-
-def jtjxoneFirst():
-    drag_inxy(525,252,-411,114,0.8)
-    click_button_in_window("jtjxone.png")
-    time.sleep(0.5)
-    click_inxy(130, 241)
-    click_button_in_window("door-kssz.png")
-    click_button_in_window("door-qrpq.png", click_delay=1)
-    click_button_in_window("door-exit.png")
-    find_and_click_until_stop("zwt.png", "yl-backhome.png")
-    click_button_in_window("yl-close.png")
-    click_button_in_window("ytly.png",click_delay=1)
-
-def freejtjxoneSecond():
-    drag_inxy(525,252,-411,114,0.8)
-    click_button_in_window("jtjxone.png")
-    time.sleep(0.5)
+    time.sleep(1)
     click_inxy(523, 197)
     find_and_click_until_stop("freeConfirm.png", "door-zhpq.png", click_delay=0.5, timeout=5)
     click_button_in_window("freeConfirm.png")
     click_button_in_window("door-exit.png")
-    find_and_click_until_stop("zwt.png", "yl-backhome.png", click_delay=0.5)
-    click_button_in_window("yl-close.png")
-    click_button_in_window("ytly.png",click_delay=1)
-
-def jtjxoneSecond():
-    drag_inxy(525,252,-411,114,0.8)
-    click_button_in_window("jtjxone.png")
-    time.sleep(0.5)
-    click_inxy(523, 197)
-    click_button_in_window("door-kssz.png")
-    find_and_click_until_stop("yl-yes.png", "together.png", click_delay=0.5, timeout=10)
-    click_button_in_window("yl-yes.png", click_delay=0.5, timeout=10)
-    click_button_in_window("door-qrpq.png", click_delay=1)
-    click_button_in_window("door-exit.png")
-    find_and_click_until_stop("zwt.png", "yl-backhome.png")
-    click_button_in_window("yl-close.png")
-    click_button_in_window("ytly.png",click_delay=1)
-
-def freejtjxoneThird():
-    drag_inxy(525,252,-411,114,0.8)
-    click_button_in_window("jtjxone.png")
-    time.sleep(0.5)
+    time.sleep(1)
     click_inxy(887, 140)
     find_and_click_until_stop("freeConfirm.png", "door-zhpq.png", click_delay=0.5, timeout=5)
     click_button_in_window("freeConfirm.png")
@@ -576,10 +639,20 @@ def freejtjxoneThird():
     click_button_in_window("yl-close.png")
     click_button_in_window("ytly.png",click_delay=1)
 
-def jtjxoneThird():
+def jtjxone():
     drag_inxy(525,252,-411,114,0.8)
     click_button_in_window("jtjxone.png")
     time.sleep(0.5)
+    click_inxy(130, 241)
+    click_button_in_window("door-kssz.png")
+    click_button_in_window("door-qrpq.png", click_delay=1)
+    click_button_in_window("door-exit.png")
+    time.sleep(1)
+    click_inxy(523, 197)
+    click_button_in_window("door-kssz.png")
+    click_button_in_window("door-qrpq.png", click_delay=1)
+    click_button_in_window("door-exit.png")
+    time.sleep(1)
     click_inxy(887, 140)
     click_button_in_window("door-kssz.png")
     click_button_in_window("door-qrpq.png", click_delay=1)
@@ -599,40 +672,33 @@ def freeyllt():
     find_and_click_until_stop("yl-backhome.png", "yllt_exit.png")
     find_and_click_until_stop("zwt.png", "yl-backhome.png")
 
-def ytly(image_path):
-    # click_button_in_window('manchoosedown.png', timeout=8, click_delay=0.2)
-    # click_button_in_window(image_path, timeout=5, click_delay=0.2)
-    # click_button_in_window('startgame.png', timeout=5, click_delay=0.2)
-    # click_button_in_window('gongao.png', timeout=20, click_delay=2)
-    # click_button_in_window('huodong.png', timeout=3, click_delay=2)
-    # goto()
-    # freeYu()
-    # freeTao()
-    # freejtjxoneFirst()
-    # freejtjxoneSecond()
-    # freejtjxoneThird()
-    # freeshgfone()
-    # freeyllt()
-    # firstRelease()
-    # fushen("yl-cj.png",6)
-    # fushen("yl-cd.png",6)
-    fushen("yl-sg.png",6)
-    fushen("yl-sg.png",6)
-    fushen("yl-sh.png",6)
-    fushen("yl-lq.png",6)
-    fushen("yl-qg.png",8)
-    fushen("yl-fs.png",8)
-    fushen("yl-sc.png",8)
-    fushen("yl-by.png",6)
-    fushen("yl-by.png",6)
-    fushen("yl-by.png",6)
-    fushen("yl-by.png",6)
+def ytlyhard(image_path):
+    click_button_in_window('manchoosedown.png', timeout=8, click_delay=0.2)
+    click_button_in_window(image_path, timeout=5, click_delay=0.2)
+    click_button_in_window('startgame.png', timeout=5, click_delay=0.2)
+    click_button_in_window('gongao.png', timeout=10, click_delay=2)
+    click_button_in_window('huodong.png', timeout=3, click_delay=2)
+    goto()
+    freeYu()
+    freeTao()
+    freejtjxone()
+    freeshgfone()
+    freeyllt()
+    firstRelease()
+    makesoul(29)
+    fushen("yl-cj.png",1,1)
+    fushen("yl-cd.png",1,1)
+    fushen("yl-sg.png",4,2)
+    fushen("yl-sh.png",2,1)
+    fushen("yl-lq.png",2,1)
+    fushen("yl-qg.png",4,2)
+    fushen("yl-fs.png",4,2)
+    fushen("yl-sc.png",4,2)
+    fushen("yl-by.png",7,2)
     Tao()
-    Yu()
     shgfone()
-    jtjxoneFirst()
-    jtjxoneSecond()
-    jtjxoneThird()
+    jtjxone()
+    Yu() 
     click_button_in_window("yl-close.png",click_delay=1)
     click_button_in_window("map-exit.png",click_delay=1)
     find_and_click_until_stop("shezhi.png", "caidan.png", click_delay=1, timeout=5)
@@ -640,11 +706,38 @@ def ytly(image_path):
     find_and_click_until_stop("ks_exit.png", "kaishijiemian.png", timeout=5)
     find_and_click_until_stop("startgame.png", "ks_exit.png", timeout=20)
 
-# ytly("houzi.png")
-ytly("tangseng.png")
-# ytly("bajie.png")
-# ytly("shaseng.png")
-# ytly("liuli.png")
-# ytly("wangzi.png")
-# ytly("change.png")
+def ytly(image_path):
+    click_button_in_window('manchoosedown.png', timeout=8, click_delay=0.2)
+    click_button_in_window(image_path, timeout=5, click_delay=0.2)
+    click_button_in_window('startgame.png', timeout=5, click_delay=0.2)
+    click_button_in_window('gongao.png', timeout=20, click_delay=2)
+    click_button_in_window('huodong.png', timeout=3, click_delay=2)
+    goto()
+    freeYu()
+    freeTao()
+    freejtjxone()
+    freeshgfone()
+    freeyllt()
+    firstRelease()
+    fushenSimple("yl-cj.png",6)
+    fushenSimple("yl-cd.png",6)
+    fushenSimple("yl-sg.png",6)
+    fushenSimple("yl-sg.png",6)
+    fushenSimple("yl-sh.png",6)
+    fushenSimple("yl-lq.png",6)
+    fushenSimple("yl-qg.png",8)
+    fushenSimple("yl-fs.png",8)
+    fushenSimple("yl-sc.png",8)
+    fushenSimple("yl-by.png",12)
+    fushenSimple("yl-by.png",12)
+    Tao()
+    shgfone()
+    jtjxone()
+    Yu()
+    click_button_in_window("yl-close.png",click_delay=1)
+    click_button_in_window("map-exit.png",click_delay=1)
+    find_and_click_until_stop("shezhi.png", "caidan.png", click_delay=1, timeout=5)
+    find_and_click_until_stop("kaishijiemian.png", "shezhi.png", timeout=5)
+    find_and_click_until_stop("ks_exit.png", "kaishijiemian.png", timeout=5)
+    find_and_click_until_stop("startgame.png", "ks_exit.png", timeout=20)
 
