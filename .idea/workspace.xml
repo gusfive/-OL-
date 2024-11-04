@@ -5,20 +5,548 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ef3994f-d102-46ae-b2db-19d4084a071d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/-OL-/alldamage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/backmap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/catchsize.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/kls-task.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/nonotice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/rewards.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/test.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/together.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/window_screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-OL-/yl-yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/0000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/1200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/2000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/2200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/addtime.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/alldamage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/back-enter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/backHZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/backdt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/backmap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/bagua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/bajie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/baxian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/baxian_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/baxiantiaozhan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/bggj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/bingshuangyiji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/buff_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/buzaitishi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/bxs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/bxs_yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/byzj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/caidan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/catchsize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/change.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/chenghao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/choupai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/chuangdui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/ckyl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/confirmRelive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/confirmation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/count+.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/cw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/cw_tiaozhan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/dadian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/dan-exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/dasheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/dashu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/digong_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/djkbqygb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/djwy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/dontianwang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/door-change.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/door-confirm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/door-exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/door-kssz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/door-pl-jl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/door-pl-jss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/door-pl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/door-qrpq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/door-zhpq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/doushouchang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/en_kstz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/fabaojingjie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/fanhuicunzhuang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/fanhuixianmeng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/fbjj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/floor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/fqxs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/free.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/freeConfirm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/fsll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/ftt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/fx_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/gerenziliao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/gkdw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/gongao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/gotokl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/guangan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/hdyj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/healthAny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/hlc-hard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/hlc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/houyuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/houzi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/hqxb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/huicunzhuang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/huijia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/hunzha-in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/hunzha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/huodong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/iknow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/jdianrenwu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/jiacheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/jianzheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/jibeicunzhuang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/jibeiditu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/jibeiqueding.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/jiguang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/jiguaung_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/jingdiansaodang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/jingjie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/jingru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/jingrulianmeng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/jingruxianmeng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/jss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/jtjxone-hard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/jtjxone-hardhard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/jtjxone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/jxsj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/kaishi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/kaishijiemian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/kaishitiaozhan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/kl-exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/kls-exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/kls-task.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/kls-yxd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/ks_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/kssq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/kssz-yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/kssz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/kunlunshan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/liandan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianmeng/change.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianmeng/change_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianmeng/confirm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianmeng/cxxs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianmeng/give.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianmeng/maxnum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianmeng/myxs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianmeng/overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianmeng/overview_xs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianmeng/rank2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianmeng/rank3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianmeng/receive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianmeng/second.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianmeng/select_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianmeng/sure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianmeng/take.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianmeng/xs_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianmeng/xuanshang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianmeng/yes_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianyaota-exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianyaota-exit2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lianyaota.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lijiwancheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lingqu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/liuli.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lm_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lonmen_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lonmengfudi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/lquyoujian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/make.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/manchoosedown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/manchooseup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/map-exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/moku.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/moku_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/move_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/moxie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/moyuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/nezhai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/nianya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/niepan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/nonotice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/notice_yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/ny_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/oneLevelCreation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/peiyang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/penglai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/plfs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/pljj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/pqsz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/putonjianshe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/pvp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/pvpc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/qdjj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/qiankundai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/qrfs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/qrpq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/quanxuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/quxiao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/qzzl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/rainbowbuilding.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/relives.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/renshu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/renwu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/rewards.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/richangrenwu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/ronyuxunzhang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/ryushangdian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/saobinqueding.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/saodangxialu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/selectRank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/select_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/shangzheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/shaseng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/shezhi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/shgfone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/shijieditu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/startgame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/suolue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/sxian_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/sz-exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/sz-kspq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/sz-kssz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/sz-qrpq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/sz-zhpq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/szConfim.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/tangseng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/taotuo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/task_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/task_finish.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/templates/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/templates/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/templates/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/templates/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/templates/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/templates/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/templates/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/templates/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/templates/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/templates/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/tianting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/tiaozhan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/tjzb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/together.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/tuichufuben.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/tzys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/waiyuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/wangzi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/wuzhuang_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/wuzhuangguan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/wyang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/xb_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/xbyj_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/xiangfang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/xianmeng-exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/xianmeng1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/xianmengrenwu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/xianmengzhulou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/xiuluo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/xuanshangrenwu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/xuanshangyes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/xukon_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/xukong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/xz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yaohuang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yaoshou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yaoshui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yaoyuan/confirm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yaoyuan/exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yaoyuan/give.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yaoyuan/sure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yaoyuan/take.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yaoyuan/yaofu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yaoyuan/yaoji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yaoyuan/yy_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yijiannianya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yijiansaodang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yj_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yjwj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yl-backhome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yl-by.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yl-cd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yl-cj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yl-ck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yl-close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yl-collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yl-enter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yl-exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yl-fd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yl-fs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yl-lq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yl-qg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yl-qx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yl-sc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yl-sg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yl-sh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yl-yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yl-zl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/ylSelectAll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yl_chooseup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yllt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/yllt_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/youjian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/ys_jxtz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/ysjr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/ytly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/ytxs-hard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/ytxs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/zd_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/zhankai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/zhanyaochumo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/zhaoling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/zhaoling_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/zhenlin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/zhenwu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/zhpq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/zl_fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/zmxyOL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/zudui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/images/zwt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-OL-/xq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/base_operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/game_automation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/1200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/2000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/2200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/addtime.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/alldamage.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/-OL-/auto_yaoling.py" beforeDir="false" afterPath="$PROJECT_DIR$/-OL-/auto_yaoling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/back-enter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/backHZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/backdt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/backmap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/bagua.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/bajie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/baxian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/baxian_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/baxiantiaozhan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/bggj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/bingshuangyiji.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/buff_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/buzaitishi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/bxs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/bxs_yes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/byzj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/caidan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/catchsize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/change.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/chenghao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/choupai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/chuangdui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/ckyl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/confirmRelive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/confirmation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/count+.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/cw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/cw_tiaozhan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/dadian.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/-OL-/daily&amp;&amp;yaoshou.py" beforeDir="false" afterPath="$PROJECT_DIR$/-OL-/daily&amp;&amp;yaoshou.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/dasheng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/digong_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/djkbqygb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/djwy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/dontianwang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/door-change.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/door-confirm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/door-exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/door-kssz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/door-pl-jl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/door-pl-jss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/door-pl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/door-qrpq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/door-zhpq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/doushouchang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/fabaojingjie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/fanhuicunzhuang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/fanhuixianmeng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/fbjj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/floor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/fqxs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/free.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/freeConfirm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/fsll.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/gkdw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/gongao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/gotokl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/guangan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/healthAny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/hlc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/houyuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/houzi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/huicunzhuang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/huijia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/hunzha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/huodong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/iknow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/jdianrenwu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/jiacheng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/jianzheng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/jibeicunzhuang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/jibeiditu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/jibeiqueding.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/jiguang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/jiguaung_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/jingdiansaodang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/jingjie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/jingru.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/jingrulianmeng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/jingruxianmeng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/jtjxone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/jxsj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/kaishi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/kaishijiemian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/kaishitiaozhan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/kl-exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/kls-exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/kls-task.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/kls-yxd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/ks_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/kssq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/kssz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/kunlunshan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/liandan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/lianyaota-exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/lianyaota-exit2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/lianyaota.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/lijiwancheng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/lingqu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/liuli.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/lm_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/lonmen_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/lonmengfudi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/lquyoujian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/make.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/manchoosedown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/manchooseup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/map-exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/move_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/moxie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/moyuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/nezhai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/nianya.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/niepan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/nonotice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/ny_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/oneLevelCreation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/peiyang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/penglai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/plfs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/pljj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/pqsz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/putonjianshe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/pvp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/pvpc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/qdjj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/qiankundai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/qrfs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/qrpq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/quanxuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/quxiao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/qzzl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/rainbowbuilding.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/-OL-/recoed_xy.py" beforeDir="false" afterPath="$PROJECT_DIR$/-OL-/recoed_xy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-OL-/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/-OL-/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/relives.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/renshu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/renwu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/rewards.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/richangrenwu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/ronyuxunzhang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/ryushangdian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/saobinqueding.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/saodangxialu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/selectRank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/select_all.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/shangzheng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/shaseng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/shezhi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/shgfone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/shijieditu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/startgame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/suolue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/sxian_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/sz-exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/sz-kspq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/sz-kssz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/sz-qrpq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/sz-zhpq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/szConfim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/tangseng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/taotuo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/task_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/task_finish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/tianting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/tiaozhan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/tjzb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/together.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/tuichufuben.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/tzys.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/waiyuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/wangzi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/wuzhuang_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/wuzhuangguan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/wyang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/xiangfang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/xianmeng-exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/xianmeng1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/xianmengrenwu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/xianmengzhulou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/xiuluo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/xuanshangrenwu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/xuanshangyes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/xukon_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/xukong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/xz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yaohuang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yaoshou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yaoshui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yijiannianya.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yijiansaodang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yj_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yl-backhome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yl-by.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yl-cd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yl-cj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yl-ck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yl-close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yl-collect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yl-enter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yl-exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yl-fd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yl-fs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yl-lq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yl-qg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yl-qx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yl-sc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yl-sg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yl-sh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yl-yes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yl-zl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/ylSelectAll.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yl_chooseup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yllt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/yllt_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/youjian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/ys_jxtz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/ysjr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/ytly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/ytxs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/zd_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/zhankai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/zhanyaochumo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/zhaoling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/zhaoling_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/zhenlin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/zhenwu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/zhpq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/zmxyOL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/zudui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-OL-/zwt.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/zmxy-py.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zmxy-py.iml" afterDir="false" />
@@ -37,6 +565,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -59,11 +590,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/gusha/Desktop/code/-OL-&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/code/voiceToTxt&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.auto_yaoling">
+  <component name="RunManager" selected="Python.daily&amp;&amp;yaoshou">
     <configuration name="auto_yaoling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="zmxy-py" />
       <option name="ENV_FILES" value="" />
@@ -108,6 +639,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="method" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zmxy-py" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/-OL-" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\code\zmxy-py\-OL-\method.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="recoed_xy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="zmxy-py" />
       <option name="ENV_FILES" value="" />
@@ -130,41 +683,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="zmxy-py" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/-OL-" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/-OL-/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.auto_yaoling" />
         <item itemvalue="Python.daily&amp;&amp;yaoshou" />
         <item itemvalue="Python.recoed_xy" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.auto_yaoling" />
+        <item itemvalue="Python.method" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
       </set>
     </attachedChunks>
   </component>
@@ -178,6 +709,17 @@
       <updated>1729842642685</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
